@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav .nav-link{
+    font-weight: 600;
+    color: rgb(87, 87, 87);
+}
+nav .nav-link.active{
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    border-bottom: solid 3px rgb(104, 103, 103);
+}
+nav small{
+    font-size: 0.6rem;
+}
+main{
+    padding: ;
+}
+.intro{
+    color: rgb(250, 250, 250);
+    background: rgb(255, 243, 205);
+    padding: 5rem 0;
+}
+.intro h1{
+    color: black;
+    font-weight: 800;
+    font-size: 5rem;
+    font-family: sans-serif;
+}
+.intro h5{
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.intro .btn{
+    font-weight: 600;
+}
+.intro .carousel img{
+    width: 100%;
+    max-height: 63vh;
+    object-fit: contain;
+}
+.intro .carousel .carousel-indicators button{
+    border: 1px black solid;
+    border-radius: 5rem;
+    height: 0.65rem !important;
+    width: 0.65rem !important;
+}
+.intro .carousel .carousel-indicators button.active{
+    border-radius: 5rem;
+    width: 1.5rem !important;
+}
+.category h5{
+    font-weight: 650;
+}
+.category span{
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.category span.active{
+    border-bottom: 3px solid rgb(70, 70, 70);
+}
