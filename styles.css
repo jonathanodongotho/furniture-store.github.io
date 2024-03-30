@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+h6{
+    font-weight: 700;
+}
+h5{
+    font-weight: 800;
+}
 .hero{
     background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)), url('images/image2.jpg');
     background-repeat: no-repeat;
@@ -13,6 +19,10 @@ nav .nav-link{
     font-weight: 600;
     color: rgb(255, 249, 214);
 }
+nav .bars{
+    color: rgb(255, 249, 214);
+    font-size: 1.5rem;
+}
 nav .nav-link.active{
     font-weight: 600;
     color: rgb(255, 249, 214);
@@ -21,12 +31,9 @@ nav .nav-link.active{
 nav small{
     font-size: 0.6rem;
 }
-main{
-    padding: ;
-}
+
 .intro{
     color: rgb(250, 250, 250);
-    background: ;
     padding: 10rem 0;
 }
 .intro h1{
@@ -92,8 +99,11 @@ main{
     width: 47%;
     background: white;
 }
+.category .pag .active{
+    border-bottom: 2.5px solid rgb(56, 56, 56);
+}
 .groups{
-    width: 100vw;
+    width: ;
 }
 .groups a{
     background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.548)),url('images/chair2.jpg');
@@ -106,4 +116,142 @@ main{
     width: 30%;
     font-weight: 650;
     height: 40vh;
+}
+.discount-container{
+    padding: 6rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)), url('images/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.discount{
+    background: white;
+    padding: 3rem 0;
+}
+
+.discount a{
+    background: rgb(153, 0, 0);
+    color: white;
+    font-weight: 600;
+    padding: 0.3rem 1.5rem;
+}
+.discount h6{
+    color: red;
+}
+.discount a:hover{
+    background: rgb(255, 255, 255);
+    outline: 2px solid rgb(153, 0, 0);
+    color: rgb(153, 0, 0);
+}
+.gallery{
+
+}
+.gallery img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: contain;
+}
+footer .section2 p{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .why-us .why-item{
+        padding: 1.4rem;
+        margin: 0rem 1.5rem;
+    }
+    .category .cat-container img{
+        height: 35vh;
+    }
+    .gallery img{
+        width: 13rem;
+        height: 13rem;
+    }
+    .groups a{
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro h1 {
+        font-size: 4.4rem;
+    }
+    .intro h5 {
+        font-size: 1rem;
+    }
+    .why-us .why-item{
+        padding: 1rem;
+        margin: 0rem 1.2rem;
+    }
+    .category .cat-container img {
+        height: 100%;
+    }
+    .groups a{
+        width: 30%;
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 425px) {
+    .intro h1 {
+        font-size: 3.8rem;
+    }
+    .why-us{
+        margin-top: -7rem;
+    }
+    .why-us .why-item{
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+    }
+    .why-us i{
+        font-size: 1.5rem;
+    }
+    .category .cat-heading{
+        flex-wrap: wrap;
+    }
+    .category .cat-heading span{
+        font-weight: 600;
+        color: rgb(53, 53, 53);
+        padding: 0.5rem 0.2rem;
+    }
+    .category .cat-container{
+        padding: 2rem 0 1rem 0;
+        width: ;
+    }
+    .category .cat-container img{
+        width: 100%;
+        height: 14rem;
+    }
+    .category .cat-item{
+        width: 47%;
+        background: white;
+    }
+    .groups a{
+        width: 45%;
+        height: 40vh;
+    }
+    .gallery img{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .category .cat-container img{
+        max-height: 12rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro h1 {
+        font-size: 3.5rem;
+    }
+    .category .cat-container img{
+        max-height: 10rem;
+    }
+    .groups a{
+        width: 45%;
+        height: 30vh;
+        margin-right: 0.5rem;
+    }
+    .gallery img{
+        width: 7.8rem;
+        height: 7.8rem;
+    }
 }
